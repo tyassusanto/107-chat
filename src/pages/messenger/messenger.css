@@ -1,0 +1,11 @@
+.sidebar {
+    flex: 0.5;
+}
+
+.chatMenu {
+    flex: 3.5;
+}
+
+.chatBox {
+    flex: 8;
+}
