@@ -12,7 +12,7 @@ const Message = ({ own }) => {
           <div className={own ? "border p-2 max-w-xs bg-blue-300 text-sm rounded-lg" : "border p-2 max-w-xs bg-gray-300 text-sm rounded-lg"}>
             <div className={own ? 'hidden' : "font-semibold text-blue-500"}>ATO - Iwakawa</div>
             <div className={own ? "border-b-2 border-gray-300" : ""}>Lorem ipsum dolor sit amet.</div>
-            <div className={own ? "" : "hidden"}>昨日の書類を修正して私に送ってもらえますか？</div>
+            <div className={own ? "text-xs" : "hidden"}>昨日の書類を修正して私に送ってもらえますか？</div>
           </div>
           <div className={own ? "justify-end text-xs flex w-full" : "text-xs flex w-full justify-between"}>
             <div className={own ? "hidden flex" : "flex text-gray-500"}>
