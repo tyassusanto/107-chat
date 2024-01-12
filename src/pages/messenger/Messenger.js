@@ -61,7 +61,12 @@ const Messenger = () => {
                         </div>
                     </div>
                     <div className="messageBox p-3 pe-2 h-3/5 overflow-x-hidden scrollbar-thin scrollbar-thumb-blue-200">
-                        pesan <br />
+                        <Message />
+                        <Message own={true} />
+                        <Message />
+                        <Message own={true} />
+                        <Message />
+                        <Message own={true} />
                         <Message />
                     </div>
                     <div className="botChatBox bg-gray-50 p-3">
